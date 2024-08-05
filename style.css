@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(135, 198, 152);
+  }
+  h1 {
+    color: rgb(19, 65, 19);
+  }
+  p {
+    color: red;
+  }
+canvas {
+    max-width: 98%;
+    max-height: 98%;
+    height: auto;
+    width: auto;
+    margin:auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:white;
+    border:black 3px solid;
+}
