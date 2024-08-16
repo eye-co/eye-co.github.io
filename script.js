@@ -6,8 +6,8 @@ box.width = 500
 box.height = 500
 
 ctx.moveTo(0, 0)
-ctx.lineTo(200, 100)
-ctx.stroke()
+// ctx.lineTo(200, 100)
+// ctx.stroke()
 
 const myPoints = []
 
@@ -23,11 +23,11 @@ function randomPointGenerator(ct) {
 function drawPoints(points) {
   myPoints.forEach(point => {
     ctx?.beginPath()
-    ctx?.arc(point.x, point.y, 50, 0, Math.PI * 2) // x, y, radius, start angle, end angle
+    ctx?.arc(point.x, point.y, 5, 0, Math.PI * 2) // x, y, radius, start angle, end angle
     ctx.fillStyle = "black"
     ctx?.fill()
   })
-}
+}   
 
 randomPointGenerator(100)
 drawPoints(myPoints)
