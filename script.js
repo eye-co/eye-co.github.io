@@ -4,6 +4,7 @@ const box = document.getElementById("clusterCanvas");
 const ctx = box.getContext("2d");
 box.width = 500;
 box.height = 500;
+const buffer = 15;
 
 ctx.moveTo(0, 0);
 // ctx.lineTo(200, 100)
@@ -14,8 +15,8 @@ const myPoints = [];
 function randomPointGenerator(ct) {
   for (let i = 0; i < ct; i++) {
     myPoints.push({
-      x: Math.random() * box.width,
-      y: Math.random() * box.height,
+      x: Math.random() * (box.width - buffer * 2) + buffer,
+      y: Math.random() * (box.height - buffer * 2) + buffer,
       group: 0
     })
   }
