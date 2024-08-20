@@ -1,5 +1,4 @@
 // script code here
-const aiko = 5
 const box = document.getElementById("clusterCanvas")
 const ctx = box.getContext("2d")
 box.width = 500

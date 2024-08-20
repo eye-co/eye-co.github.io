@@ -17,6 +17,18 @@ canvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color:white;
-    border:black 3px solid;
+    background-color:rgb(255, 255, 255);
+    border:black 2px solid;
+}
+
+.cluster-box {
+  width: 500px;
+  height: 500px;
+  /* background-color: #a0a0a0; */
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
